@@ -1,27 +1,74 @@
-.services {
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
     text-align: center;
-    padding: 40px;
-    max-width: 900px;
-    margin: auto;
 }
 
-.services-list {
-    text-align: left;
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #ff9800, #ffcc80);
+    padding: 15px 0;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
     list-style: none;
     padding: 0;
 }
 
-.services-list li {
-    font-size: 18px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-    position: relative;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-.services-list li::before {
-    content: "✔"; 
-    position: absolute;
-    left: 0;
-    color: #f4a30d; /* Use SmartSite orange */
+nav ul li a {
+    text-decoration: none;
     font-weight: bold;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: white;
+    padding: 40px;
+}
+
+.hero h1 {
+    color: #333;
+}
+
+.hero p {
+    color: #666;
+}
+
+/* Features Section */
+.features, .construction {
+    padding: 40px;
+}
+
+.feature-images img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #ffcc80;
+    text-decoration: none;
 }
