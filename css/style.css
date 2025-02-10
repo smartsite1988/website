@@ -45,7 +45,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('../images/construction_bg.jpg') no-repeat center center/cover;
+    background: url('images/dashboard_image.png') no-repeat center center/cover; /* Adjust for correct image */
     padding: 100px 20px;
     color: white;
     text-align: center;
@@ -111,6 +111,28 @@ section.about ul li::before {
     color: #ff8c00;
 }
 
+/* Gallery Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Image hover effect */
+}
+
 /* Footer Styles */
 footer {
     background-color: #333;
@@ -129,7 +151,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Image and Blended Image Styling */
+/* Image Styling */
 .blended-image {
     width: 100%;
     max-width: 800px;
